@@ -1,0 +1,44 @@
+
+ <!-- let myname ="JP Singh"
+ console.log(myname)
+ let college_name= 'GNDEC' 
+ console.log(college_name); -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="display">
+        Just a minute....
+    </p>
+    <script>
+        // let friend1 = "MOhit";
+        // let friend2 = "Sumit";
+        // let phrase = `friend1 is a friend of friend2`
+        // console.log(phrase)
+        // let phrase1 = `${friend1} is a friend of ${friend2}`
+        // console.log(phrase1)
+        let result;
+        let your_name = prompt("Enter your name: ");
+        console.log(your_name)
+        let random_name = prompt("Enter the first name that comes in your mind: ");
+        console.log(random_name);
+        let sentence = `Is ${random_name}  your friend? \n Type Y/N`
+        let agree = prompt(sentence);
+        if(agree == 'Y'){
+            result = `${your_name} is a friend of ${random_name}`
+            alert(result)
+        }
+        else if(agree == 'N' ){
+            result = `You just typed ${random_name} randomly`;
+            alert(result);
+        }
+        document.getElementById("display").textContent= result;
+        </script>
+</body>
+</html>
