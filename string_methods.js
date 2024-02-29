@@ -35,3 +35,7 @@ let line = "What is true will stay true, no matter what";
 let detect = "pawan";
 console.log(` ${detect} ${line.includes(detect)? 'is' : 'is not' } in the sentence`)
 console.log(line.startsWith('What'));
+line.includes(detect)
+
+let arr = [43, 434, 62, 53]
+console.log(arr)
